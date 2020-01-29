@@ -1,0 +1,216 @@
+{
+	"PETNOC": {
+		"applicantName": {
+			"type": "text",
+			"mandatory": "true",
+			"validateRegularExp": "[A-Za-z ]++$",
+			"displayName": "Applicant Name",
+			"inputType": "textbox"
+		},
+		"nameOfPet": {
+			"type": "text",
+			"mandatory": "true",
+			"validateRegularExp": "[A-Za-z ]++$",
+			"displayName": "Name Of Pet",
+			"inputType": "textbox"
+		},
+		"houseNo": {
+			"type": "number",
+			"mandatory": "true",
+			"validateRegularExp": "[0-9]++$",
+			"displayName": "House No",
+			"inputType": "textbox"
+		},
+		"sector": {
+			"type": "number",
+			"mandatory": "true",
+			"validateRegularExp": "[0-9]++$",
+			"displayName": "Sector",
+			"inputType": "dropdown"
+		},
+		"age": {
+			"type": "number",
+			"mandatory": "true",
+			"validateRegularExp": "[0-9]++$",
+			"displayName": "Age",
+			"inputType": "dropdown"
+		},
+		"sex": {
+			"type": "number",
+			"mandatory": "true",
+			"validateRegularExp": "[0-9]++$",
+			"displayName": "Sex",
+			"inputType": "dropdown"
+		},
+		"breed": {
+			"type": "number",
+			"mandatory": "true",
+			"validateRegularExp": "[0-9]++$",
+			"displayName": "Breed",
+			"inputType": "dropdown"
+		},
+		"color": {
+			"type": "number",
+			"mandatory": "true",
+			"validateRegularExp": "[0-9]++$",
+			"displayName": "Color",
+			"inputType": "dropdown"
+		},
+		"identificationMark": {
+			"type": "text",
+			"mandatory": "false",
+			"validateRegularExp": "[A-Za-z ]++$",
+			"displayName": "Identification Mark",
+			"inputType": "textbox"
+		},
+		"uploadPetPicture": {
+			"type": "jsonArray",
+			"mandatory": "true",
+			"validateRegularExp": "\\[\\{\"fileStoreId\":\"(.*?)\"\\}\\]",
+			"displayName": "Upload Pet Picture",
+			"inputType": "file"
+		},
+		"immunizationNameVeterinaryDoctor": {
+			"type": "text",
+			"mandatory": "true",
+			"validateRegularExp": "[A-Za-z ]++$",
+			"displayName": "Immunization Name Veterinary Doctor",
+			"inputType": "textbox"
+		},
+		"immunizationContactDetail": {
+			"type": "text",
+			"mandatory": "true",
+			"validateRegularExp": "[0-9]++$",
+			"displayName": "Immunization Contact Detail",
+			"inputType": "textbox"
+		},
+		"immunizationClinicNo": {
+			"type": "number",
+			"mandatory": "true",
+			"validateRegularExp": "[0-9]++$",
+			"displayName": "Immunization Clinic No",
+			"inputType": "textbox"
+		},
+		"immunizationSector": {
+			"type": "number",
+			"mandatory": "false",
+			"validateRegularExp": "[0-9]++$",
+			"displayName": "Immunization Sector",
+			"inputType": "dropdown"
+		},
+		"uploadVaccinationCertificate": {
+			"type": "jsonArray",
+			"mandatory": "true",
+			"validateRegularExp": "\\[\\{\"fileStoreId\":\"(.*?)\"\\}\\]",
+			"displayName": "Upload Vaccination Certificate",
+			"inputType": "file"
+		},
+		"contactDetail": {
+			"type": "text",
+			"mandatory": "true",
+			"validateRegularExp": "[A-Za-z ]++$",
+			"displayName": "Contact Detail",
+			"inputType": "textbox"
+		}
+	},
+	"RoadCuttingNOC": {
+		"applicantName": {
+			"type": "text",
+			"mandatory": "true",
+			"validateRegularExp": "[A-Za-z ]++$",
+			"displayName": "Applicant Name",
+			"inputType": "textbox"
+		},
+		"houseNo": {
+			"type": "number",
+			"mandatory": "true",
+			"validateRegularExp": "[0-9]++$",
+			"displayName": "House No",
+			"inputType": "textbox"
+		},
+		"sector": {
+			"type": "number",
+			"mandatory": "true",
+			"validateRegularExp": "[0-9]++$",
+			"displayName": "Sector",
+			"inputType": "dropdown"
+		},
+		"age": {
+			"type": "number",
+			"mandatory": "true",
+			"validateRegularExp": "[0-9]++$",
+			"displayName": "Age",
+			"inputType": "dropdown"
+		},
+		"sex": {
+			"type": "number",
+			"mandatory": "true",
+			"validateRegularExp": "[0-9]++$",
+			"displayName": "Sex",
+			"inputType": "dropdown"
+		},
+		"breed": {
+			"type": "number",
+			"mandatory": "true",
+			"validateRegularExp": "[0-9]++$",
+			"displayName": "Breed",
+			"inputType": "dropdown"
+		},
+		"color": {
+			"type": "number",
+			"mandatory": "true",
+			"validateRegularExp": "[0-9]++$",
+			"displayName": "Color",
+			"inputType": "dropdown"
+		},
+		"identificationMark": {
+			"type": "text",
+			"mandatory": "false",
+			"validateRegularExp": "[A-Za-z ]++$",
+			"displayName": "Identification Mark",
+			"inputType": "textbox"
+		},
+		"uploadPetPicture": {
+			"type": "jsonArray",
+			"mandatory": "true",
+			"validateRegularExp": "\\[\\{\"fileStoreId\":\"(.*?)\"\\}\\]",
+			"displayName": "Upload Pet Picture",
+			"inputType": "file"
+		},
+		"immunizationNameVeterinaryDoctor": {
+			"type": "text",
+			"mandatory": "true",
+			"validateRegularExp": "[A-Za-z ]++$",
+			"displayName": "Immunization Name Veterinary Doctor",
+			"inputType": "textbox"
+		},
+		"immunizationContactDetail": {
+			"type": "text",
+			"mandatory": "true",
+			"validateRegularExp": "[A-Za-z ]++$",
+			"displayName": "Immunization Contact Detail",
+			"inputType": "textbox"
+		},
+		"immunizationClinicNo": {
+			"type": "number",
+			"mandatory": "true",
+			"validateRegularExp": "[0-9]++$",
+			"displayName": "Immunization Clinic No",
+			"inputType": "textbox"
+		},
+		"immunizationSector": {
+			"type": "number",
+			"mandatory": "false",
+			"validateRegularExp": "[0-9]++$",
+			"displayName": "Immunization Sector",
+			"inputType": "dropdown"
+		},
+		"uploadVaccinationCertificate": {
+			"type": "jsonArray",
+			"mandatory": "true",
+			"validateRegularExp": "\\[\\{\"fileStoreId\":\"(.*?)\"\\}\\]",
+			"displayName": "Upload Vaccination Certificate",
+			"inputType": "file"
+		}
+	}
+}

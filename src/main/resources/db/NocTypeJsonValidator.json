@@ -1,0 +1,52 @@
+{
+  "PETNOC": {
+    "applicantName": {
+      "validateRegularExp": "[A-Za-z ]++$"
+    },
+    "nameOfPet": {
+      "validateRegularExp": "[A-Za-z ]++$"
+    },
+    "houseNo": {
+      "validateRegularExp": "[0-9]++$"
+    },
+    "sector": {
+      "validateRegularExp": "[0-9]++$"
+    },
+    "age": {
+      "validateRegularExp": "[0-9]++$"
+    },
+    "sex": {
+      "validateRegularExp": "[0-9]++$"
+    },
+    "breed": {
+      "validateRegularExp": "[0-9]++$"
+    },
+    "color": {
+      "validateRegularExp": "[A-Za-z ]++$"
+    },
+    "identificationMark": {
+      "validateRegularExp": "[A-Za-z ]++$"
+    },
+    "uploadPetPicture": {
+      "validateRegularExp": ""
+    },
+    "immunizationNameVeterinaryDoctor": {
+      "validateRegularExp": ""
+    },
+    "immunizationContactDetail": {
+      "validateRegularExp": "[0-9]++$"
+    },
+    "immunizationClinicNo": {
+      "validateRegularExp": "[0-9]++$"
+    },
+    "immunizationSector": {
+      "validateRegularExp": "[0-9]++$"
+    },
+    "uploadVaccinationCertificate": {
+      "validateRegularExp": ""
+    },
+    "contactDetail": {
+      "validateRegularExp": ""
+    }
+  }
+}
